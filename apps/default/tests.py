@@ -11,5 +11,5 @@ class TestApp (TestScript):
 
     testDefaultResponse = """
         1 > LOL
-        1 < Sorry, RapidSMS didn't understand that. You said: LOL
+        1 < Sorry, we could not understand that message.
     """

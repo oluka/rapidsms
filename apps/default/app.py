@@ -16,8 +16,4 @@ class App(rapidsms.App):
         if not msg.responses:
 
             msg.error("Sorry, we could not understand that message.")
-            #msg.error(
-            #    "Sorry, RapidSMS didn't understand that. You said: %(you_said)s",
-            #    you_said=msg.text)
-
             return True
